@@ -1,0 +1,15 @@
+{
+  "name": "terratag",
+  "id": "terratag",
+  "version": "1.0.0",
+  "description": "Install [terratag](https://www.terratag.io/)",
+  "documentationURL": "https://github.com/env0/terratag",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Select or enter a terratag version"
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
